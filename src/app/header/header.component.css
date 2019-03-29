@@ -2,10 +2,15 @@
 .header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+.logo {
+ width: 120px;
 }
 img {
-  width: 106px;
-  height: 106px;
+  width: 77px;
+  height: 77px;
 }
 li a {
   display: block;
@@ -16,11 +21,15 @@ li a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  height: 100px;
+  align-items: center;
+  width: 100%;
 }
 
 li {
