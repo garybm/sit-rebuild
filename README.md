@@ -1,6 +1,11 @@
-# SiteRebuild Description:
+# Site Rebuild
 
-On this project, I will be rebuilding the homepage of the Bose website [Bose homepage](https://www.bose.com/en_us/index.html). The homepage will be divided into the following components:
+_Published_  3/29/2019 <br>
+_Author_ **Gary Bermudez**
+
+# Description:
+
+On this project, I will be rebuilding the homepage of the Bose website [Bose Homepage](https://www.bose.com/en_us/index.html). The homepage will be divided into the following components:
 
 * Header: top navigation menu
 * Hero Image
@@ -15,26 +20,39 @@ On this project, I will be rebuilding the homepage of the Bose website [Bose hom
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+### Setup/Installation Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+###Cloning the Github repository (Mac OSX):
+* Open the Terminal in your computer
+* Make sure you're in your Desktop directory
+* Clone the repository https://github.com/garybm/doctor-lookup
+* In your Terminal, navigate to the project doctor-lookup
+* Run `npm install` in the terminal to install dependencies
+* Tun `npm run start` in the terminal to build and start the dev server
+* The application will open your Chrome Browser (make sure you have downloaded Chrome browser).
+* This application will need an API key to work. Go to the directory of the application and add (touch) an .env file. If you  don't already have an API key visit https://developer.betterdoctor.com/ to request one
+* Navigate to the .env file and add `exports.apiKey = [API KEY HERE]`
+* Once you have the API key in the .env file reload the project i.e. `npm run start`
+* The application will function now that a key is connected
+* Enter a search term, ie. doctor's name, zipcode or condition into the search field
+* Click the Get Doctor CTA
+* Note that the results will display (doctors in your area)
 
-## Code scaffolding
+### Known Bugs
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* The site needs to be refresh in order to make a new search.
 
-## Build
+### Technologies Used
+* HTML
+* CSS
+* Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Support and contact details
 
-## Running unit tests
+_Email garybm.17@gmail.com with any questions._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License
 
-## Running end-to-end tests
+This software is licensed under the MIT license.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 **Gary Bermudez**
