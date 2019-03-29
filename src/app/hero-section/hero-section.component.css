@@ -8,8 +8,6 @@
   background-repeat: no-repeat;
 }
 
-
-
 button {
   display: inline-block;
   padding: 10px 35px;
@@ -31,7 +29,6 @@ button:hover {
   color: white;
   background-color: #242424;
 }
-
 
 .hero {
   display: flex;
@@ -56,7 +53,7 @@ button:hover {
     font-size: 20px;
     letter-spacing: .1em;
   }
-  
+
  .look h1{
    font-size: 50px;
  }

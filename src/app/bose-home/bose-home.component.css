@@ -1,0 +1,9 @@
+.bose-home {
+  display: flex;
+  width: 100%;
+  background-color: black;
+  height: 760px;
+  align-items: center;
+  background-image: url("/assets/images/hero.jpg");
+  background-repeat: no-repeat;
+}
