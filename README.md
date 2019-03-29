@@ -1,4 +1,4 @@
-# Site Rebuild
+# BOSE Site Rebuild
 
 _Published_  3/29/2019 <br>
 _Author_ **Gary Bermudez**
@@ -10,42 +10,48 @@ On this project, I will be rebuilding the homepage of the Bose website [Bose Hom
 * Header: top navigation menu
 * Hero Image
 * Recommended: products
-* Bose Home
-* Bose Noise
-* Sunglasses
-* BOSE AUTOMOTIVE
-* Footer: Social Media
-* Footer: Sign up form
-* Footer Links
+* Bose Home (not ready)
+* Bose Noise (not ready)
+* Sunglasses (not ready)
+* BOSE AUTOMOTIVE (not ready)
+* Footer: Social Media (not ready)
+* Footer: Sign up form (not ready)
+* Footer Links (not ready)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-### Here are some screen capture of the buildout version:
+### Screen captures of the buildout version:
 
 ![Header and Hero sections](src/assets/images/sample1.png)
 
 
-### Setup/Installation Requirements
+## Setup/Installation Requirements
 
-###Cloning the Github repository (Mac OSX):
+#### Prerequisites
+* npm package manager
+* Angular CLI
+* Node.js
+
+#### Cloning the Github repository (Mac OSX):
 * Open the Terminal in your computer
 * Make sure you're in your Desktop directory
-* Clone the repository
-* In your Terminal, navigate to the project doctor-lookup
+* Clone the repository `git clone`: https://github.com/garybm/site-rebuild
+* In your Terminal, navigate to the project site-rebuild
 * Run `npm install` in the terminal to install dependencies
-* Tun `ng serve` in the terminal to build and start the dev server
+* Run `ng serve --open` in your terminal: The ng serve command launches the server. The --open (or just -o) option automatically opens your browser to http://localhost:4200/.
 
 ### Known Bugs
 
-* The site needs to be refresh in order to make a new search.
+* Media queries have not been applied, the site is currently available only on Desktop view.
 
 ### Technologies Used
 * HTML
 * CSS
 * Angular
+* Typescript
 
 ## Support and contact details
 
-_Email garybm.17@gmail.com with any questions._
+_Email garybm.17@gmail.com if you have any questions_
 
 ## License
 
