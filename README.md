@@ -1,4 +1,17 @@
-# SiteRebuild
+# SiteRebuild Description:
+
+On this project, I will be rebuilding the homepage of the Bose website [Bose homepage](https://www.bose.com/en_us/index.html). The homepage will be divided into the following components:
+
+* Header: top navigation menu
+* Hero Image
+* Recommended: products
+* Bose Home
+* Bose Noise
+* Sunglasses
+* BOSE AUTOMOTIVE
+* Footer: Social Media
+* Footer: Sign up form
+* Footer Links
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
