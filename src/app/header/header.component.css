@@ -1,0 +1,28 @@
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 106px;
+  height: 106px;
+}
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
