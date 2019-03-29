@@ -52,12 +52,6 @@ img:hover {
   font-size: 14px;
 }
 
-a:hover {
-  color: white;
-
-transform: scale(1.5);
-}
-
 ul {
   list-style-type: none;
 }
