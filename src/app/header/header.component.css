@@ -21,6 +21,7 @@
 img {
   width: 77px;
   height: 77px;
+  cursor: pointer;
 }
 li a {
   display: block;
