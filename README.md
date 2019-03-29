@@ -17,26 +17,22 @@ On this project, I will be rebuilding the homepage of the Bose website [Bose Hom
 * Footer: Social Media
 * Footer: Sign up form
 * Footer Links
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+
+### Here are some screen capture of the buildout version:
+
+![Header and Hero sections](src/assets/images/sample1.png)
+
 
 ### Setup/Installation Requirements
 
 ###Cloning the Github repository (Mac OSX):
 * Open the Terminal in your computer
 * Make sure you're in your Desktop directory
-* Clone the repository https://github.com/garybm/doctor-lookup
+* Clone the repository
 * In your Terminal, navigate to the project doctor-lookup
 * Run `npm install` in the terminal to install dependencies
-* Tun `npm run start` in the terminal to build and start the dev server
-* The application will open your Chrome Browser (make sure you have downloaded Chrome browser).
-* This application will need an API key to work. Go to the directory of the application and add (touch) an .env file. If you  don't already have an API key visit https://developer.betterdoctor.com/ to request one
-* Navigate to the .env file and add `exports.apiKey = [API KEY HERE]`
-* Once you have the API key in the .env file reload the project i.e. `npm run start`
-* The application will function now that a key is connected
-* Enter a search term, ie. doctor's name, zipcode or condition into the search field
-* Click the Get Doctor CTA
-* Note that the results will display (doctors in your area)
+* Tun `ng serve` in the terminal to build and start the dev server
 
 ### Known Bugs
 
