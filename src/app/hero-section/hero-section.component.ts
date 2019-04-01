@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-section.component.css']
 })
 export class HeroSectionComponent implements OnInit {
+  dateMessage: string;
 
-  constructor() { }
+  constructor() {
+    setInterval (()=> {
+      let currentDate = new Date();
+      this.dateMessage = currentDate.toDateString() + ' , ' + currentDate.toLocaleTimeString();
+    } , 1000);
+  }
 
   ngOnInit() {
   }
-
 }

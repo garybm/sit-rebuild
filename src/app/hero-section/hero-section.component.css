@@ -1,8 +1,7 @@
 .hero-container {
   display: flex;
-  width: 100%;
   background-color: black;
-  height: 760px;
+
   align-items: center;
   background-image: url("/assets/images/hero.jpg");
   background-repeat: no-repeat;
@@ -36,7 +35,7 @@ button:hover {
   color: white;
   width: 700px;
   height: 300px;
-  margin: 20px;
+  margin: 50px;
   padding: 20px;
   justify-content: space-between;
 }
