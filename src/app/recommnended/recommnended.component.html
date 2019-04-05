@@ -3,24 +3,25 @@
   <h1>RECOMMENDED</h1>
   <div class="products-container">
     <div class="product" *ngFor="let product of products">
-      <!-- <div class="image"> -->
+      <div class="image">
         <img src="../assets/images/home-product.png" alt="product">
-      <!-- </div> -->
-      <!-- <div class="title-link"> -->
-        <h1>{{product.name}}</h1>
-      <!-- </div> -->
-      <!-- <div class="price"> -->
+      </div>
+      <div class="title-link">
+        <a>{{product.name}}</a>
+      </div>
+      <div class="price">
         <small>From ${{product.price}}</small>
-      <!-- </div> -->
-      <!-- <div class="info"> -->
+      </div>
+      <div class="info">
         <small>{{product.description}}</small>
-      <!-- </div> -->
-      <!-- <div class="info-features"> -->
+      </div>
+      <div class="info-features">
         <img src="../assets/images/bluetooth.png" alt="">
         <img src="../assets/images/noise-cancelling.png" alt="">
         <small>{{product.features}}</small>
-      <!-- </div> -->
+      </div>
     </div>
+
     <!-- <div class="product">
       <div class="image">
         <img src="../assets/images/product2.png" alt="product">
