@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { RecommnendedComponent } from './recommnended/recommnended.component';
 import { BoseHomeComponent } from './bose-home/bose-home.component';
+import { FramesComponent } from './frames/frames.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { BoseHomeComponent } from './bose-home/bose-home.component';
     HeaderComponent,
     HeroSectionComponent,
     RecommnendedComponent,
-    BoseHomeComponent
+    BoseHomeComponent,
+    FramesComponent
   ],
   imports: [
     BrowserModule

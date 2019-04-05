@@ -1,0 +1,55 @@
+.bose-home {
+  background-image: url("/assets/images/frames.jpg");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  // margin-left: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #242424;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  cursor: pointer;
+  background: #f8f8f8;
+  border-radius: 25px;
+  transition: opacity 0.3s ease-out;
+  width: 120px;
+}
+
+button:hover {
+  color: white;
+  background-color: #242424;
+}
+
+.hero {
+  width: 40%;
+  padding: 2%;
+  color: white;
+  justify-content: center;
+  text-align: center;
+   position: absolute;
+   top: 40%;
+   left: 20%;
+   transform: translate(-50%, -50%);
+   h1 {
+     font-weight: bold;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+   }
+   h2 {
+     font-weight: 50;
+     letter-spacing: 4px;
+     font-size: 1em;
+   }
+   img {
+     width: 190px;
+   }
+}

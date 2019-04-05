@@ -27,6 +27,9 @@ h1 {
 .info-features {
   display: flex;
   flex-direction: row;
+  small {
+    margin-left: 4%;
+  }
 }
 
 
