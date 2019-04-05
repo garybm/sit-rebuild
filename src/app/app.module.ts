@@ -7,16 +7,13 @@ import { RecommnendedComponent } from './recommnended/recommnended.component';
 import { BoseHomeComponent } from './bose-home/bose-home.component';
 import { FramesComponent } from './frames/frames.component';
 import { SocialComponent } from './social/social.component';
-import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+// import { AngularFireStorageModule } from '@angular/fire/storage';
+// import { AngularFireAuthModule } from '@angular/fire/auth';
+import { masterFirebaseConfig } from './api-keys';
 
-export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.databaseURL,
-  storageBucket: masterFirebaseConfig.storageBucket
-};
 
 @NgModule({
   declarations: [
@@ -30,6 +27,10 @@ export const firebaseConfig = {
   ],
   imports: [
     BrowserModule
+    // AngularFireModule.initializeApp(masterFirebaseConfig.firebase),
+    // AngularFirestoreModule, // imports firebase/firestore, only needed for database features
+    // AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
+    // AngularFireStorageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

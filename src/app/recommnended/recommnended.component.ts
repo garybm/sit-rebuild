@@ -1,11 +1,22 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../models/product.model';
+// import { AngularFirestore } from '@angular/fire/firestore';
+// import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-recommnended',
   templateUrl: './recommnended.component.html',
   styleUrls: ['./recommnended.component.scss']
 })
+
+// export class RecommnendedComponent {
+//   products: Observable<any[]>;
+//   constructor(db: AngularFirestore) {
+//     this.products = db.collection('products').valueChanges();
+//   }
+// }
+
+
 export class RecommnendedComponent implements OnInit {
 
   products: Product[] = [
