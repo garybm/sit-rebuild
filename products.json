@@ -1,0 +1,23 @@
+
+{ "products": [{
+    "name": "Bose Home Speaker 500",
+    "price": "399.95",
+    "description": "Best in class wall-to-wall stereo sound. Amazon Alexa built in.",
+    "features": "Bluetooth"
+    }, {
+    "name": "BQC20 noise cancelling headphones – Apple devices",
+    "price": "224.95",
+    "description": "'Noise cancelling, inline mic/remote, Aware mode",
+    "features": "Noise cancelling"
+    }, {
+    "name": "A20® Aviation Headset",
+    "price": "995.95",
+    "description": "Around-ear, noise reduction, clear audio, audio/communication interface",
+    "features": "Noise cancelling"
+    }, {
+    "name": "691 in-wall speakers",
+    "price": "449.95",
+    "description": "In-wall speakers, SoundTouch compatible",
+    "features": " "
+  }]
+}

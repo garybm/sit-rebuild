@@ -1,7 +1,7 @@
 export const masterFirebaseConfig = {
-    apiKey: "xxxx",
-    authDomain: "xxxx.firebaseapp.com",
-    databaseURL: "https://xxxx.firebaseio.com",
-    storageBucket: "xxxx.appspot.com",
-    messagingSenderId: "xxxx"
+    apiKey: "AIzaSyCMyb9uaU0yoVQUVel07acEjvLeqkvheIQ",
+    authDomain: "site-rebuild-80a1a.firebaseapp.com",
+    databaseURL: "https://site-rebuild-80a1a.firebaseio.com",
+    storageBucket: "site-rebuild-80a1a.appspot.com",
+    messagingSenderId: "316303663725"
   };
