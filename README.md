@@ -22,7 +22,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Screen captures of the buildout version:
 
-![Header and Hero sections](src/assets/images/sample1.png)
+![Header and Hero sections](src/assets/images/sample.png)
 ![Recommended](src/assets/images/recommended.png)
 ![Product](src/assets/images/sample2.png)
 ![Footer](src/assets/images/sample3.png)
