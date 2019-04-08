@@ -2,7 +2,7 @@
 <div class="recommended">
   <h1>RECOMMENDED</h1>
   <div class="products-container">
-    <div class="product" *ngFor="let product of products">
+    <div class="product" *ngFor="let product of products | async">
       <div class="image">
         <img src="../assets/images/home-product.png" alt="product">
       </div>
