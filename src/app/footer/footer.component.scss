@@ -16,7 +16,6 @@
   }
 }
 
-
 .one {
   display: flex;
   flex-direction: column;
@@ -73,6 +72,7 @@
 img  {
   width: 50px;
 }
+
 span {
   padding: 5px;
 }
@@ -87,4 +87,8 @@ span {
   padding-right: 106px;
   padding-left: 106px;
   border-top: 1px solid;
+}
+.change:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
