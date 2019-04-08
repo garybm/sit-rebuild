@@ -6,13 +6,25 @@
   background-color: #191919;
 }
 .icons {
+  margin-left: 15%;
   width: 50%;
+  align-content: center;
 }
 .email {
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: white;
+  }
+}
+a:hover {
+  text-decoration: underline;
 }
 
 img {
   width: 30px;
   height: 30px;
+  padding: 3%;
 }

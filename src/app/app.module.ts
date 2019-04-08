@@ -13,6 +13,7 @@ import { SocialComponent } from './social/social.component';
 // import { AngularFireStorageModule } from '@angular/fire/storage';
 // import { AngularFireAuthModule } from '@angular/fire/auth';
 import { masterFirebaseConfig } from './api-keys';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { masterFirebaseConfig } from './api-keys';
     RecommnendedComponent,
     BoseHomeComponent,
     FramesComponent,
-    SocialComponent
+    SocialComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
